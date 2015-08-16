@@ -11,6 +11,7 @@ var cssmin = require('gulp-minify-css');
 var webpack = require('gulp-webpack');
 var plumber = require('gulp-plumber');
 var merge = require('merge-stream');
+var marked = require('marked');
 var sourcemaps = require('gulp-sourcemaps');
 var sitemap = require('gulp-sitemap');
 var jscs = require('gulp-jscs');

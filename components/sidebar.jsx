@@ -7,13 +7,7 @@ var Login = require('./login.jsx');
 
 var Sidebar = React.createClass({
   MENU_ENTRIES: [
-    {
-      name: "Teaching Activities",
-      link: 'activities',
-      help: "Activities and lesson plans to get you started",
-      icon: "/img/components/sidebar/svg/icon-nav-white-materials.svg",
-      className: "activities"
-    },
+   
     {
       name: "Mozilla Clubs",
       link: 'mozilla-clubs',
@@ -27,42 +21,30 @@ var Sidebar = React.createClass({
         }
       ]
     },
-    {
-      name: "Maker Party",
-      link: 'events',
-      help: "Host a one-time event or workshop",
-      icon: "/img/components/sidebar/svg/icon-nav-white-events.svg",
-      className: "events",
+      {
+      name: "Mozilla Reps",
+      link: 'reps-mentor',
+      help: "Mozilla Reps Rule",
+      icon: "/img/components/sidebar/svg/icon-nav-white-globe.svg",
+      className: "clubs",
       subItems: [
         {
-          name: "Event Resources",
-          link: "event-resources"
+          name: "Mentors",
+          link: "reps-mentor"
         }
       ]
     },
-    {
-      name: "Tools",
-      link: 'tools',
-      help: "Open source software to teach and learn the Web",
-      icon: "/img/components/sidebar/svg/icon-nav-white-tools.svg",
-      className: "tools-page"
-    },
-    {
-      name: "Community",
-      href: 'http://discourse.webmaker.org/',
-      help: "Connect with others on topics you care about",
-      icon: "/img/components/sidebar/svg/icon-nav-white-community.svg",
-    },
-    {
-      name: "Teach Like Mozilla",
-      link: 'teach-like-mozilla',
-      help: "Learn about our approach to teaching the Web",
-      icon: "/img/components/sidebar/svg/icon-nav-white-gears.svg",
-      className: "teach",
+    ,
+      {
+      name: "Participation",
+      link: 'moz-participation',
+      help: "Community is the heart of Mozilla",
+      icon: "/img/components/sidebar/svg/icon-nav-white-globe.svg",
+      className: "clubs",
       subItems: [
         {
-          name: "Web Literacy",
-          link: "web-literacy"
+          name: "Design Thinking for Participation",
+          link: "moz-participation"
         }
       ]
     }

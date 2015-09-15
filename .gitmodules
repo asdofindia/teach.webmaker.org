@@ -1,0 +1,3 @@
+[submodule "community_curriculum"]
+	path = community_curriculum
+	url = git@github.com:emmairwin/community_curriculum.git
